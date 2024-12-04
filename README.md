@@ -14,7 +14,7 @@ python .\creditcard_analyzer.py
 O objetivo deste projeto é identificar transações fraudulentas no conjunto de dados "Credit Card Fraud Detection", disponível [aqui](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download&select=creditcard.csv), utilizando o modelo de classificação Random Forest.
 
 ## Estrutura do projeto
-
+```
 src
     dados - contem o dataset utilizado no projeto.
     imagens - contem imagens geradas pelos modelos.
@@ -27,6 +27,7 @@ src
         knn.py
 creditcard_analyzer.py - script principal do projeto
 README.md
+```
 
 ## Análise dos Dados
 - O dataset se encontra na pasta "dados" e contém 284807 transações, das quais apenas 0.17% são fraudulentas.
