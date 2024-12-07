@@ -63,15 +63,15 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
  [   36   112]]
 ```
 
-## Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Alta acurácia e precisão geral na detecção de fraudes.
 - Poucos falsos positivos, o que é desejável para evitar transtornos ao usuário.
 
-## Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - O recall para fraudes pode ser melhorado, já que o modelo não identifica 24% das fraudes.
 - Desbalanceamento das classes apresenta um desafio na generalização para detecção de fraudes.
 
-### Resultados Decision Tree
+## Resultados Decision Tree
 - **Acurácia**: 0.9987
 - **Precisão para Fraude**: 0.64
 - **Recall para Fraude**: 0.44
@@ -82,17 +82,17 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
 [ 83 65]]
 ```
 
-#### Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Modelo rápido para treinar e interpretar.
 - Apresenta bom desempenho geral na classificação de transações normais.
 
-#### Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - Recall baixo para fraudes, indicando que muitas fraudes não são detectadas.
 - Pode ter problemas de overfitting se não for ajustado adequadamente.
 
 ---
 
-### Resultados K-NN
+## Resultados K-NN
 - **Acurácia**: 0.9989
 - **Precisão para Fraude**: 0.76
 - **Recall para Fraude**: 0.54
@@ -102,17 +102,17 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
 [[85281 14]
 [ 69 79]]
 ```
-#### Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Boa precisão e equilíbrio entre precisão e recall para fraudes.
 - Simplicidade de implementação, ideal para conjuntos de dados de tamanho moderado.
 
-#### Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - Desempenho pode degradar em conjuntos de dados maiores ou com alta dimensionalidade.
 - Requer ajustes adequados de hiperparâmetros, como o número de vizinhos.
 
 ---
 
-### Resultados Gradient Boosting
+## Resultados Gradient Boosting
 - **Acurácia**: 0.9984
 - **Precisão para Fraude**: 0.73
 - **Recall para Fraude**: 0.16
@@ -123,17 +123,17 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
 [ 124 24]]
 ```
 
-#### Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Modelo robusto em prever transações normais com alta precisão e recall.
 - Implementação eficiente para grandes volumes de dados.
 
-#### Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - O desempenho em detectar fraudes é fraco, com recall significativamente baixo.
 - A distribuição desbalanceada afeta a identificação de fraudes.
 
 ---
 
-### Resultados Logistic Regression
+## Resultados Logistic Regression
 - **Acurácia**: 0.9991
 - **Precisão para Fraude**: 0.85
 - **Recall para Fraude**: 0.60
@@ -144,17 +144,17 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
 [ 59 89]]
 ```
 
-#### Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Boa precisão para fraudes, reduzindo falsos positivos.
 - Simplicidade e interpretabilidade do modelo.
 
-#### Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - Recall moderado para fraudes, resultando em algumas fraudes não detectadas.
 - Pode não capturar relações complexas nos dados.
 
 ---
 
-### Resultados SVM
+## Resultados SVM
 - **Acurácia**: 0.9993
 - **Precisão para Fraude**: 0.97
 - **Recall para Fraude**: 0.61
@@ -165,11 +165,11 @@ O objetivo deste projeto é identificar transações fraudulentas no conjunto de
 [ 58 90]]
 ```
 
-#### Pontos Fortes do Modelo
+### Pontos Fortes do Modelo
 - Alta precisão e F1-Score para fraudes, indicando bom equilíbrio entre precisão e recall.
 - Eficiente para conjuntos de dados de alta dimensionalidade.
 
-#### Pontos Fracos do Modelo
+### Pontos Fracos do Modelo
 - Recall ainda pode ser aprimorado para identificar mais fraudes.
 - Tempo de treinamento mais alto em comparação com modelos lineares.
 
