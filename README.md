@@ -2,7 +2,7 @@
 - Aluno: Douglas Cristiano da Silva 
 - RA: 152211260
 
-# Projeto Final A3: Desenvolvimento de um Agente Inteligente
+# Projeto Final A3: Agente para Detecção de Fraude em Transações com Cartão de Crédito
 
 ## Instalação de libs
 pip install seaborn pandas matplotlib
